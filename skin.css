@@ -220,8 +220,6 @@ fieldset fieldset dl dl,
 dd.hideme,
 form blockquote.userstuff,
 input,
-select,
-select:focus,
 span.symbol.question,
 .own {
   color: #AAAEB3 !important;
@@ -231,7 +229,8 @@ span.symbol.question,
   background-image: url("https://raw.githubusercontent.com/gazanchik777/ao3-skin1/main/kdj2.jpg");
 }
 
-textarea, textarea:focus {
+textarea, textarea:focus, select,
+select:focus {
   color: #e4e8ec !important;
   border: 1px solid #e4e8ec;
   box-shadow: 0px 0px 5px #e4e8ec;
