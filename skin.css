@@ -172,6 +172,13 @@ ul.navigation.actions li a,
   border-radius: 1px;
 }
 
+.actions input, .actions a, .work.navigation.actions a, .actions button, .button {
+  display: inline-block !important;
+  padding: 2px 5px !important;
+  margin: 2px 0px !important;
+  border-radius: 5px !important;
+}
+
 .current,
 #dashboard .current {
   background: #363636 !important;
