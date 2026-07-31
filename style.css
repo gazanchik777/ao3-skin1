@@ -1,0 +1,401 @@
+#header {
+  background-image: url("https://raw.githubusercontent.com/gazanchik777/ao3-skin1/main/bb2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #1f1f1f;
+}
+
+#header .heading {
+  height: 10em;
+}
+
+#header .primary {
+  background: #242424;
+  box-shadow: 0px 0px 15px #585858;
+  background-image: url("https://raw.githubusercontent.com/gazanchik777/ao3-skin1/main/header2.jpg");
+}
+
+#header img.logo {
+  filter: brightness(0) invert(95%); 
+}
+
+#header .heading a {
+  color: #ececec;
+  text-shadow: 0px 0px 30px #25262c;
+}
+
+.event .userstuff {
+  background: #fefeff;
+  border: 1px solid #202020;
+}
+
+#outer.wrapper {
+  background: #1b1b1b;
+  color: #ebebeb;
+  background-image: url("https://raw.githubusercontent.com/gazanchik777/ao3-skin1/main/bg2.png");
+}
+
+#main a {
+  color: #aaaeb3;
+}
+
+#greeting a.dropdown-toggle,
+#header .actions a {
+  color: #ebebeb !important;
+  text-shadow: 0px 0px 3px #151726;
+  background: transparent !important;
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a {
+  background: #1b1b1b;
+  box-shadow: 0px 0px 10px #dfdfdf;
+}
+
+span.submit.actions input.button {
+  display: none;
+}
+
+#header #search .text,
+.search [role="tooltip"] {
+  background: #222222;
+  box-shadow: 0px 0px 5px #7c7c7c;
+  color: #d1d1d1 !important;
+  border: 1px solid #2b2b2b;
+}
+
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: #222222 !important;
+  border: none;
+  box-shadow: 0px 0px 5px #919191;
+  color: #ebebeb;
+  display: block;
+}
+
+#header #search .text {
+  width: 7em;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: #fcfbfb;
+  box-shadow: 0px 0px 10px #e6e6e6 !important;
+  color: #1f1f1f;
+  border: none;
+}
+
+.notice a,
+.comment_notice a,
+.kudos_notice a,
+ul.notes a,
+.caution a,
+.error a,
+.comment_error a,
+.kudos_error a,
+.alert.flash a {
+  color: #505b69;
+  font-weight: bold;
+}
+
+.splash .module h3 {
+  color: #bec4ca;
+  border-bottom: 2px solid #bec4ca;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  background: #dddddd;
+  box-shadow: 0px 0px 5px #d6d6d6;
+  color: #252525;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.splash .favorite li:nth-of-type(2n+2) a {
+  color: #f5f5f5;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  color: #f0f0f0;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: #5a5a5a;
+}
+
+#footer {
+  background-image: url("https://raw.githubusercontent.com/gazanchik777/ao3-skin1/main/yjh1.jpeg") !important;
+  background: #545658;
+  color: #eeeeee;
+  border-top: 3px solid #eeeeee;
+  box-shadow: 0px 0px 10px #ececec;
+}
+
+#footer a,
+#footer .heading,
+#footer button {
+  color: #b4b8c4;
+  background: transparent!important;
+  text-shadow: 0px 0px 5px #1a1a1a;
+}
+
+.actions a,
+.actions a:focus,
+.actions input:focus,
+.action:focus,
+.actions li input,
+.actions li input[type="submit"],
+input[type="submit"],
+.actions li label,
+ul.navigation.actions li a,
+.action:link,
+.actions a:link, .actions button, button,
+.actions button:focus, button:focus,
+.actions button:active, button:active {
+  background: #1a1a1a !important;
+  border: 0px solid #ebebeb;
+  color: #AAAEB3;
+  box-shadow: 0px 0px 5px #e5e6eb;
+  border-radius: 1px;
+}
+
+.current,
+#dashboard .current {
+  background: #363636 !important;
+  color: #f3f3f3 !important;
+  box-shadow: 0px 0px 5px #6d6d6d !important;
+  border-radius: 5px;
+}
+
+#dashboard.own {
+  border-top: 5px solid #e4e8ec;
+  border-bottom: 5px solid #e4e8ec;
+  box-shadow: 0px 0px 10px #e4e8ec;
+}
+
+#dashboard a:hover {
+  color: #e4e8ec;  
+  background: #202020;
+  box-shadow: 0px 0px 10px #e2e2e2;
+}
+
+#dashboard a {
+  color: #dce2e7;
+}
+
+dl.meta {
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 0px 5px #eeeeee;
+}
+
+.listbox .index {
+  background: #1f1f1f;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  background: #e4e8ec;
+  box-shadow: 0px 0px 10px #e4e8ec;
+}
+
+form dl,
+fieldset,
+fieldset fieldset,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+input,
+select,
+select:focus,
+span.symbol.question,
+.own {
+  color: #AAAEB3 !important;
+  border: 1px solid #e4e8ec;
+  box-shadow: 0px 0px 5px #e4e8ec;
+  background: #252525;
+  background-image: url("https://raw.githubusercontent.com/gazanchik777/ao3-skin1/main/kdj2.jpg");
+}
+
+textarea {
+  color: #AAAEB3 !important;
+  border: 1px solid #e4e8ec;
+  box-shadow: 0px 0px 5px #e4e8ec;
+  background: #252525;
+}
+
+.autocomplete li.added,
+.post .meta dd ul li.added,
+label,
+label.required {
+  color: #e4e8ec;
+}
+
+span.delete {
+  background: #e4e8ec;
+}
+
+span.delete a {
+  color: #1a1a1a !important;
+  font-weight: bold;
+}
+
+.ui-sortable li,
+.dynamic form,
+div.dynamic {
+  background: #1a1a1a;
+  border: 1px solid #e4e8ec;
+}
+
+.dropdown {
+  background: #1a1a1a;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #e4e8ec;
+  color: #1a1a1a;
+}
+
+li.blurb {
+  border: 1px solid #e4e8ec;
+}
+
+.draft {
+  background: #1a1a1a;
+  color: #e4e8ec;
+  border: 2px dashed #e4e8ec;
+}
+
+.draft .wrapper {
+  background: #1a1a1a;
+  border: 1px solid #e4e8ec;
+}
+
+#header h2 {
+  background: #e4e8ec !important;
+  color: #1a1a1a;
+}
+
+#stat_chart svg rect:first-of-type {
+  opacity: 60%;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect,
+#stat_chart svg g:nth-of-type(2) > g rect:last-of-type,
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:first-of-type {
+  filter: brightness(0) invert(95%);
+  opacity: 80% !important;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #1a1a1a;
+  border: 1px solid #e4e8ec;
+}
+
+.reading h4.viewed,
+dl.index dd,
+table,
+th,
+dt.child {
+  background: #1a1a1a;
+}
+
+#modal,
+span.replied {
+  background: #1a1a1a;
+  color: #e4e8ec;
+  border: 2px solid #e4e8ec;
+}
+
+h4.heading.byline {
+  background: #57585a;
+  color: #1a1a1a;
+}
+
+li.comment {
+  border: 1px solid #e4e8ec;
+}
+
+.comment div.icon {
+  border-bottom: 1px solid #e4e8ec;
+  box-shadow: 0px 0px 5px #e4e8ec;
+}
+
+.thread .even {
+  background: #2e2e2e;
+}
+
+.unread {
+  background: #1a1a1a;
+  border: 5px dashed #e4e8ec !important;
+}
+
+span.unread {
+  background: #e4e8ec;
+  color: #1a1a1a;
+}
+
+span.indicator::before {
+  box-shadow: 0px 0px 5px #e4e8ec;
+}
+
+.warnings .tag,
+.work .warning a.tag,
+dd.warning.tags a {
+  color: #e4e8ec;  
+}
+
+.relationships .tag,
+.work .relationships a.tag,
+dd.relationship.tags a {
+  background: #242424;
+  color: #e4e8ec;
+  font-weight: bold;
+}
+
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 2px 0px;
+  border-radius: 5px;
+}
+
+a.tag:hover,
+.warnings .tag:hover,
+.relationships .tag:hover,
+.characters .tag:hover,
+.freeforms .tag:hover {
+  background: #e4e8ec !important;
+  color: #1a1a1a !important;
+}
+
+.actions button:hover,
+button:hover {
+  background: #1a1a1a !important;
+  color: #AAAEB3 !important;
+}
+
+body {
+  background: #1a1a1a !important;
+  color: #e4e8ec;
+}
+
+.blurb h4 a:visited {
+  color: #e4e8ec !important;
+}
