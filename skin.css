@@ -367,15 +367,6 @@ dd.relationship.tags a {
   font-weight: bold;
 }
 
-a.tag,
-a.tag:visited,
-a.tag:link {
-  display: inline-block;
-  padding: 2px 5px;
-  margin: 2px 0px;
-  border-radius: 5px;
-}
-
 a.tag:hover,
 .warnings .tag:hover,
 .relationships .tag:hover,
