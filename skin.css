@@ -402,6 +402,10 @@ button:hover {
   color: #AAAEB3 !important;
 }
 
+span.text {
+  text-shadow: none !important;
+}
+
 body {
   background: #1a1a1a !important;
   color: #e4e8ec;
