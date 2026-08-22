@@ -108,6 +108,7 @@ ul.notes a,
 .alert.flash a {
   color: #d9dee4;
   font-weight: bold;
+  text-shadow: none !important;
 }
 
 .splash .module h3 {
@@ -413,4 +414,8 @@ body {
 
 .blurb h4 a:visited {
   color: #e4e8ec !important;
+}
+
+form {
+  background: #1a1a1a !important;
 }
